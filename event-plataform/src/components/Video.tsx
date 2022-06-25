@@ -12,9 +12,9 @@ const GET_LESSON_BY_SLUG_QUERY = gql`
         id
         description
         teacher {
-        bio
-        avatarURL
-        name
+            bio
+            avatarURL
+            name
         }
     }
     }
