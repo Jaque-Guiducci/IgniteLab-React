@@ -4,6 +4,7 @@ import { useGetLessonBySlugQuery } from "../graphql/generated";
 
 import '@vime/core/themes/default.css';
 import { Button } from "./Button";
+import { Footer } from "./Footer";
 
 interface VideoProps {
     lessonSlug: string;
@@ -124,6 +125,8 @@ export function Video(props: VideoProps){
                 </div>
 
             </div>
+
+            <Footer/>
 
         </div>
     )
