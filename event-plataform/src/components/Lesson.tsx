@@ -30,13 +30,13 @@ export function Lesson(props: LessonProps){
             </span>
 
             <div 
-                className={classNames('`rounded border border-gray-500 p-4 mt-2 group-hover:border-green-50', {
+                className={classNames('`rounded-lg border border-gray-500 p-4 mt-2 group-hover:border-green-500', {
                     'bg-green-500': isActiveLesson
                 })}
             >
                 <header className="flex items-center justify-between">
                     {isLessonAvailable ? (
-                        <span className={classNames('text-sm font-medium flex items-center gap-2', {
+                        <span className={classNames('text-sm font-normal flex items-center gap-2', {
                             "text-white": isActiveLesson,
                             "text-blue-500": !isActiveLesson
                         })}>

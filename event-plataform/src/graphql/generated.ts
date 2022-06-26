@@ -5586,7 +5586,7 @@ export type GetLessonBySlugQuery = { __typename?: 'Query', lesson?: { __typename
 export type GetLessonsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetLessonsQuery = { __typename?: 'Query', lessons: Array<{ __typename?: 'Lesson', videoId: string, slug: string, title: string, availableAt?: any | null, lessonType: LessonType }> };
+export type GetLessonsQuery = { __typename?: 'Query', lessons: Array<{ __typename?: 'Lesson', id: string, slug: string, title: string, availableAt?: any | null, lessonType: LessonType }> };
 
 
 export const CreateSubscriberDocument = gql`
@@ -5668,7 +5668,7 @@ export type GetLessonBySlugQueryResult = Apollo.QueryResult<GetLessonBySlugQuery
 export const GetLessonsDocument = gql`
     query GetLessons {
   lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
-    videoId
+    id
     slug
     title
     availableAt

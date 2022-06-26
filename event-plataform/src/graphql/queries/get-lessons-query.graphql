@@ -1,6 +1,6 @@
 query GetLessons {
     lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
-        videoId
+        id
         slug
         title
         availableAt
