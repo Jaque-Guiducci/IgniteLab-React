@@ -23,7 +23,9 @@
     "phosphor-react": "^1.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.2",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "vite": "^2.9.9",
+    "vite-plugin-import": "^0.4.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.6.2",
