@@ -20,9 +20,9 @@ Table of contents
 <p>The application was created during the Rocketseat company's Ignite Lab week.</p>
 
 <p align="center">
-  <img alt="Image_Subscribe" title="Web_Index" src="./event-plataform/src/assets/Readme/subscribe.png" width="1000px">
-  <img alt="Image_Event" title="Web_Index" src="./src/assets/Readme/event.png" width="1000px">
-  <img alt="Imege_NotFound" title="Web_Index" src="./src/assets/Readme/notfound.png" width="1000px">
+  <img alt="Image_Subscribe" title="Web_Index" src="event-plataform/src/assets/Readme/subscribe.PNG" width="1000px">
+  <img alt="Image_Event" title="Web_Index" src="event-plataform/src/assets/Readme/event.PNG" width="1000px">
+  <img alt="Imege_NotFound" title="Web_Index" src="event-plataform/src/assets/Readme/notfound.png" width="1000px">
 </p>
 
 <h2 id="installation"> :computer: Installation </h2> 
