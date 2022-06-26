@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-reac
 import { useGetLessonBySlugQuery } from "../graphql/generated";
 
 import '@vime/core/themes/default.css';
+import { Button } from "./Button";
 
 interface VideoProps {
     lessonSlug: string;
@@ -69,15 +70,15 @@ export function Video(props: VideoProps){
 
                     <div className="flex flex-col gap-4">
 
-                        <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+                        <Button color="green" url="https://discord.gg/4Xg7cnzh">
                             <DiscordLogo size={24}/>
                             Comunidade do Discord
-                        </a>
+                        </Button>
 
-                        <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-500 transition-colors">
+                        <Button color="blue" url="/">
                             <Lightning size={24}/>
                             Acesse o desafio
-                        </a>
+                        </Button>
 
                     </div>
                 </div>
